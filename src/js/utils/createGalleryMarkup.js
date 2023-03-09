@@ -1,5 +1,5 @@
-export default function createGalleryMarkup(galleryItems) {
-  return galleryItems
+export default galleryItems =>
+  galleryItems
     .map(
       ({ preview, original, description }) =>
         `<div class="gallery__item">
@@ -13,4 +13,3 @@ export default function createGalleryMarkup(galleryItems) {
         </div>`
     )
     .join('');
-}

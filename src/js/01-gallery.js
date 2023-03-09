@@ -1,6 +1,6 @@
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
-import createGalleryMarkup from './createGalleryMarkup';
+import createGalleryMarkup from './utils/createGalleryMarkup';
 
 // Add imports above this line
 import { galleryItems } from './gallery-items';
